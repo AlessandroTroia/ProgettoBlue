@@ -1,0 +1,52 @@
+:root {
+    --main: #1566C0;
+    --fsmain: 'Righteous', cursive;
+    --fssec: 'Roboto', sans-serif;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+p{
+    font-family: var(--fssec);
+}
+
+/* header */
+header {
+    background:linear-gradient(to bottom, rgb(0, 0, 0), transparent), url(/media/header2.jpg);
+    background-position: bottom;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+h1,
+h3,h5 {
+    font-family: var(--fsmain);
+}
+
+.btn1 {
+    background-color: #f6d550 ;
+    border-radius: 0 ;
+}
+
+.headerBackgroundGrigio {
+    z-index: 1;
+    position: absolute;
+    bottom: 3vh;
+}
+
+.headerBackgroundBianco {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+.altezza{
+    width: 100vw;
+}
+.spazio{
+    margin-top: 100px;
+}
+#bluett{
+    color: var(--main);
+}
